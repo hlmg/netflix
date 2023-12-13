@@ -1,0 +1,67 @@
+.main-container {
+    background: aqua;
+}
+
+.banner__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+}
+
+.banner__content {
+    position: absolute;
+    top: 15vw;
+    left: 0;
+    right: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 25vw;
+    width: 40vw;
+}
+
+.banner__logo {
+}
+
+.banner__description {
+    font-size: 1.3vw;
+}
+
+.banner__buttons {
+    display: flex;
+}
+
+.banner__buttons > button {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5vw 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.2vw;
+    gap: 10px;
+}
+
+.banner__play-button {
+    width: 9vw;
+    color: black;
+    background-color: white;
+}
+
+.banner__info-button {
+    width: 12vw;
+    color: white;
+    background-color: rgba(109, 109, 110, 0.7);
+    margin-left: 1vw;
+}
+
+.banner__button-image {
+    width: 2vw;
+}
