@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'NetflixSans_W_Rg', monospace;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: #181818;
+    color: white;
+}
+
+@font-face {
+    font-family: 'NetflixSans_W_Rg';
+    src: url('../assets/fonts/NetflixSans_W_Rg.woff2') format('woff');
+}
