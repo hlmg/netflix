@@ -5,14 +5,33 @@
 }
 
 .banner__image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: relative;
     width: 100%;
     object-fit: cover;
     object-position: center;
     z-index: -1;
+}
+
+.banner__image-wrapper {
+    position: absolute;
+    width: 100%;
+}
+
+
+.banner__image-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(
+            to bottom,
+            rgba(24, 24, 24, 0) 70%,
+            rgba(24, 24, 24, 1) 90%,
+            rgba(24, 24, 24, 1) 100%
+    );
 }
 
 .banner__content {
