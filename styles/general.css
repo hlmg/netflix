@@ -10,11 +10,11 @@ img {
 body {
     font-family: 'NetflixSans_W_Rg', monospace;
     margin: 0;
-    padding-top: 80px;
-    padding-left: 96px;
-    padding-right: 24px;
     background-color: #181818;
     color: white;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
 }
 
 @font-face {

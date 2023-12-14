@@ -1,5 +1,7 @@
 .main-container {
-    background: aqua;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
 }
 
 .banner__image {
@@ -14,15 +16,11 @@
 }
 
 .banner__content {
-    position: absolute;
     top: 15vw;
-    left: 0;
-    right: 0;
     margin-left: 50px;
     margin-right: 50px;
-    display: flex;
-    flex-flow: column;
     justify-content: space-between;
+    margin-top: 12vw;
     height: 25vw;
     width: 40vw;
 }
@@ -31,7 +29,7 @@
 }
 
 .banner__description {
-    font-size: 1.3vw;
+    font-size: 1.2vw;
 }
 
 .banner__buttons {
@@ -64,4 +62,35 @@
 
 .banner__button-image {
     width: 2vw;
+}
+
+.content-container {
+    margin-top: 6vw;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.content-title {
+    font-size: 1.4vw;
+}
+
+.contents {
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.content {
+    width: 250px;
+}
+
+.content img {
+    border-radius: 10px;
+}
+
+.content:hover {
+    transition: all 0.2s linear;
+    transform: scale(1.3);
 }
